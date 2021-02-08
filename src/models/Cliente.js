@@ -8,7 +8,7 @@ class Cliente extends Model {
                 cliente: DataTypes.STRING,
                 produto: DataTypes.STRING,
                 quantidade: DataTypes.STRING
-            },
+            }, 
             {
                 sequelize,
             }
